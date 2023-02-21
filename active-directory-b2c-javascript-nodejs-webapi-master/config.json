@@ -1,0 +1,23 @@
+{
+    "credentials": {
+        "tenantName": "CONTOSOUVG.onmicrosoft.com",
+        "clientID": "b06972b6-d8e4-4180-8d64-421b43afff78"
+    },
+    "policies": {
+        "policyName": "B2C_1_SUSI"
+    },
+    "resource": {
+        "scope": ["tasks.read"]
+    },
+    "metadata": {
+        "authority": "login.microsoftonline.com",
+        "discovery": ".well-known/openid-configuration",
+        "version": "v2.0"
+    },
+    "settings": {
+        "isB2C": true,
+        "validateIssuer": true,
+        "passReqToCallback": false,
+        "loggingLevel": "info"
+    }
+}
